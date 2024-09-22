@@ -1,0 +1,12 @@
+.section-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: #414141;
+    margin-top: 0px;
+    margin-left: 73px;
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 11px;
+        margin-left: 91px;
+    }
+}

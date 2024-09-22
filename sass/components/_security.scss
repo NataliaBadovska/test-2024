@@ -1,0 +1,33 @@
+.security-form{
+    padding-top: 61px;
+    width: 543px;
+
+    @media screen and(min-width: $desktop) {
+            display: flex;
+            padding-top: 48px;
+            padding-left: 36px;
+        }
+}
+
+.password-change-box{
+    @media screen and(min-width: $desktop) {
+        margin-right: 258px;
+    }
+}
+
+.password-change{
+    font-weight: 600;
+    font-size: 25px;
+    color: #414141;
+
+    @media screen and(min-width: $desktop) {
+            margin-top: 0;
+        }
+}
+
+.privacy-btn{
+    @media screen and(min-width: $desktop) {
+            margin-top: 74px;
+        }
+
+}

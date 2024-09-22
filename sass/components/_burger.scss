@@ -1,0 +1,23 @@
+.burger-btn{
+    display: block;
+    width: 62px;
+    height: 40px;
+    margin-top: 47px;
+    background-color: $accent-color;
+    padding: 0;
+    border: transparent;
+    
+}
+
+.burger-strip{
+    display: block;
+    
+    border-radius: 10px;
+    width: 59px;
+    height: 10px;
+    background: #5ca1b7;
+
+    &:not(:last-child){
+       margin-bottom: 5px;
+    }
+}

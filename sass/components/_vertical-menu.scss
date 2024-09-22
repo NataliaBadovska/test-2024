@@ -1,0 +1,43 @@
+.vertical-menu{
+    position: fixed;
+    top: 39px;
+    left: 44px;
+    background: #69a7ba;
+    border-radius: 31px;
+    width: 319px;
+    padding-top: 68px;
+    padding-left: 56px;
+    padding-bottom: 860px;
+
+    @media screen and(max-width: 1439px) {
+            display: none;
+        }
+}
+
+.logo-box{
+    margin-bottom: 125px;
+}
+
+.menu-list{
+    list-style: none;
+}
+
+.contacts-nav{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: $accent-color;
+}
+
+.menu-item{
+    height: 51px;
+
+    &:not(:last-child) {
+            margin-bottom: 4px;
+        }
+}
+
+.receive-payments{
+    width: 210px;
+    height: 248px;
+}

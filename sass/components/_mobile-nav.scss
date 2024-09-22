@@ -1,0 +1,30 @@
+.mobile-nav{
+    @media screen and(min-width: 1439px){
+    display: none;
+}
+
+}
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 57px;
+    padding-right: 55px;
+    margin-bottom: 62px;
+
+    @media screen and(min-width: $desktop) {
+        margin-bottom: 90px;
+        align-items: center;
+    }
+}
+
+.main-nav__svg{
+    border-radius: 10px;
+    margin-top: 31px;
+    width: 75px;
+    height: 76px;
+
+    &:hover,
+    :focus{
+        border: 1 solid blue;
+    }
+}

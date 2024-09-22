@@ -1,0 +1,23 @@
+body{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    font-family: "Gilroy", sans-serif;
+    color: $primary-text-color;
+    line-height: 1.7;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+main{
+    
+    @media screen and (min-width: $desktop) {
+     
+            position: absolute;
+            top: 206px;
+            right: 0;
+            padding-left: 34px;
+            // width: calc (100% - 319);
+        }
+
+}
