@@ -9,6 +9,11 @@
     padding-left: 56px;
     padding-bottom: 860px;
 
+    &:hover,
+        :focus {
+            border: 1px solid #5CA1B7;
+        }
+
     @media screen and(max-width: 1439px) {
             display: none;
         }
@@ -16,6 +21,11 @@
 
 .logo-box{
     margin-bottom: 125px;
+
+    &:hover,
+        :focus {
+            border: 1px solid #5CA1B7;
+        }
 }
 
 .menu-list{
@@ -27,6 +37,11 @@
     font-weight: 500;
     font-size: 20px;
     color: $accent-color;
+
+    &:hover,
+        :focus {
+            border-bottom: 1px solid #5CA1B7;
+        }
 }
 
 .menu-item{
@@ -40,4 +55,16 @@
 .receive-payments{
     width: 210px;
     height: 248px;
+
+    &:hover,
+        :focus {
+            border: 1px solid #5CA1B7;
+        }
+}
+
+.vertical-menu__icon{
+    &:hover,
+        :focus {
+            border: 1px solid #5CA1B7;
+        }
 }

@@ -8,8 +8,10 @@
     width: 543px;
     background: #f7f7f9;
 
-    &:hover{
-        border: 1px solid blue;
+
+    &:hover,
+    :focus {
+        border: 1px solid #5CA1B7;
     }
 
         @media screen and(min-width: $desktop) {

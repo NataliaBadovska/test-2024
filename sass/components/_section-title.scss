@@ -9,4 +9,9 @@
         margin-bottom: 11px;
         margin-left: 91px;
     }
+
+        &:hover,
+        :focus {
+            border-bottom: 1px solid #5CA1B7;
+        }
 }

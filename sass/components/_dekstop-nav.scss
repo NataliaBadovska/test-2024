@@ -26,6 +26,11 @@
    text-align: center;
    margin-right: 14px;
    padding-top: 6px;
+
+   &:hover,
+      :focus {
+         border-bottom: 1px solid #5CA1B7;
+      }
 }
 
 .owner{
@@ -33,6 +38,11 @@
    font-size: 16px;
    color: #000;
    line-height: normal;
+
+   &:hover,
+      :focus {
+         border-bottom: 1px solid #5CA1B7;
+      }
 }
 
 .navigation{
@@ -43,9 +53,9 @@
    background: #f7f7f9;
 
    &:hover,
-   :focus{
-      border: 1px solid blue;
-   }
+      :focus {
+         border: 1px solid #5CA1B7;
+      }
 }
 
 .site-list{
@@ -68,6 +78,11 @@ font-weight: 600;
 font-size: 16px;
 text-align: center;
 color: #838383;
+
+&:hover,
+   :focus {
+      border-bottom: 1px solid #5CA1B7;
+   }
 }
 
 .user-editing{
@@ -84,4 +99,9 @@ color: #838383;
    &:not(:last-child) {
          margin-right: 18px;
       }
+
+             &:hover,
+             :focus {
+                border: 1px solid #5CA1B7;
+             }
 }

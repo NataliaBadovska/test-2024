@@ -50,8 +50,10 @@
      font-size: 25px;
     text-align: center;
     color: $accent-color;
+
+    &:hover,
+        :focus {
+            border: 1px solid #5CA1B7;
+        }
 }
 
-// .communication-box{
-//     margin-top: 218px;
-// }

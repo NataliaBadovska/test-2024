@@ -21,6 +21,11 @@
     font-size: 25px;
     color: #414141;
 
+    &:hover,
+        :focus {
+            border: 1px solid #5CA1B7;
+        }
+
     @media screen and(min-width: $desktop) {
             margin-top: 0;
         }

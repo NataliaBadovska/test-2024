@@ -2,4 +2,9 @@
     font-weight: 600;
     font-size: 25px;
     color: #414141;
+
+    &:hover,
+        :focus {
+            border-bottom: 1px solid #5CA1B7;
+        }
 }

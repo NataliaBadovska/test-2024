@@ -16,11 +16,18 @@
     width: 31px;
     height: 31px;
     background-color: blue;   
+
+    &:hover,
+        :focus {
+            border: 1px solid #5CA1B7;
+        }
     
     @media screen and(min-width: $desktop) {
             width: 23px;
             height: 23px;
         }
+
+
 }
 
 .check-save{
@@ -28,6 +35,11 @@
     line-height: normal;
     color: $primary-text-color;
     margin-left: 9px;
+
+    &:hover,
+        :focus {
+            border-bottom: 1px solid #5CA1B7;
+        }
 
         @media screen and(min-width: $desktop) {
                 font-weight: 500;

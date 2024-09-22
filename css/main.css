@@ -326,12 +326,20 @@ section {
   margin-right: 14px;
   padding-top: 6px;
 }
+.data:hover,
+.data :focus {
+  border-bottom: 1px solid #5CA1B7;
+}
 
 .owner {
   font-weight: 700;
   font-size: 16px;
   color: #000;
   line-height: normal;
+}
+.owner:hover,
+.owner :focus {
+  border-bottom: 1px solid #5CA1B7;
 }
 
 .navigation {
@@ -342,7 +350,7 @@ section {
 }
 .navigation:hover,
 .navigation :focus {
-  border: 1px solid blue;
+  border: 1px solid #5CA1B7;
 }
 
 .site-list {
@@ -365,6 +373,10 @@ section {
   text-align: center;
   color: #838383;
 }
+.link-nav:hover,
+.link-nav :focus {
+  border-bottom: 1px solid #5CA1B7;
+}
 
 .user-editing {
   display: -webkit-box;
@@ -382,6 +394,10 @@ section {
 }
 .user-editing__item:not(:last-child) {
   margin-right: 18px;
+}
+.user-editing__item:hover,
+.user-editing__item :focus {
+  border: 1px solid #5CA1B7;
 }
 
 .logo-box {
@@ -445,7 +461,17 @@ section {
 }
 .main-nav__svg:hover,
 .main-nav__svg :focus {
-  border: 1 solid blue;
+  border: 1px solid #5CA1B7;
+}
+
+.burger-strip:hover,
+.burger-strip :focus {
+  border: 1px solid #5CA1B7;
+}
+
+.logo-box:hover,
+.logo-box :focus {
+  border: 1px solid #5CA1B7;
 }
 
 .section-title {
@@ -460,6 +486,10 @@ section {
     margin-bottom: 11px;
     margin-left: 91px;
   }
+}
+.section-title:hover,
+.section-title :focus {
+  border-bottom: 1px solid #5CA1B7;
 }
 
 .questionnaire {
@@ -497,6 +527,10 @@ section {
   margin-right: 168px;
   margin-bottom: 9px;
 }
+.questionnaire-jpg:hover,
+.questionnaire-jpg :focus {
+  border: 1px solid #5CA1B7;
+}
 @media screen and (min-width: 1440px) {
   .questionnaire-jpg {
     width: 190px;
@@ -518,8 +552,9 @@ section {
   width: 543px;
   background: #f7f7f9;
 }
-.form-container:hover {
-  border: 1px solid blue;
+.form-container:hover,
+.form-container :focus {
+  border: 1px solid #5CA1B7;
 }
 @media screen and (min-width: 1440px) {
   .form-container {
@@ -566,6 +601,10 @@ section {
   color: #414141;
   margin-left: 34px;
 }
+.label:hover,
+.label :focus {
+  border-bottom: 1px solid #5CA1B7;
+}
 
 .input-data {
   border: 1px solid rgba(0, 0, 0, 0);
@@ -582,7 +621,7 @@ section {
   margin-bottom: 32px;
 }
 .input-data:hover, .input-data:focus {
-  border: 1px solid #69A7BA;
+  border: 1px solid #5CA1B7;
 }
 @media screen and (min-width: 1440px) {
   .input-data {
@@ -613,8 +652,9 @@ section {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.questionnaire-btn:hover, .questionnaire-btn:focus {
-  border: 1px solid blue;
+.questionnaire-btn:hover,
+.questionnaire-btn :focus {
+  border: 1px solid #5CA1B7;
 }
 @media screen and (min-width: 1440px) {
   .questionnaire-btn {
@@ -673,11 +713,19 @@ section {
   text-align: center;
   color: #fff;
 }
+.btn-communication:hover,
+.btn-communication :focus {
+  border: 1px solid #5CA1B7;
+}
 
 .residence-title {
   font-weight: 600;
   font-size: 25px;
   color: #414141;
+}
+.residence-title:hover,
+.residence-title :focus {
+  border-bottom: 1px solid #5CA1B7;
 }
 
 @media screen and (min-width: 1439px) {
@@ -692,6 +740,10 @@ section {
   font-weight: 500;
   font-size: 20px;
   color: #d5635f;
+}
+.notification:hover,
+.notification :focus {
+  border-bottom: 1px solid #5CA1B7;
 }
 
 .add-documents {
@@ -735,6 +787,10 @@ section {
   height: 31px;
   background-color: blue;
 }
+.checkbox:hover,
+.checkbox :focus {
+  border: 1px solid #5CA1B7;
+}
 @media screen and (min-width: 1440px) {
   .checkbox {
     width: 23px;
@@ -747,6 +803,10 @@ section {
   line-height: normal;
   color: #414141;
   margin-left: 9px;
+}
+.check-save:hover,
+.check-save :focus {
+  border-bottom: 1px solid #5CA1B7;
 }
 @media screen and (min-width: 1440px) {
   .check-save {
@@ -781,6 +841,10 @@ section {
   font-size: 25px;
   color: #414141;
 }
+.password-change:hover,
+.password-change :focus {
+  border: 1px solid #5CA1B7;
+}
 @media screen and (min-width: 1440px) {
   .password-change {
     margin-top: 0;
@@ -806,6 +870,10 @@ section {
   padding-left: 56px;
   padding-bottom: 860px;
 }
+.vertical-menu:hover,
+.vertical-menu :focus {
+  border: 1px solid #5CA1B7;
+}
 @media screen and (max-width: 1439px) {
   .vertical-menu {
     display: none;
@@ -814,6 +882,10 @@ section {
 
 .logo-box {
   margin-bottom: 125px;
+}
+.logo-box:hover,
+.logo-box :focus {
+  border: 1px solid #5CA1B7;
 }
 
 .menu-list {
@@ -825,6 +897,10 @@ section {
   font-weight: 500;
   font-size: 20px;
   color: #fff;
+}
+.contacts-nav:hover,
+.contacts-nav :focus {
+  border-bottom: 1px solid #5CA1B7;
 }
 
 .menu-item {
@@ -838,6 +914,15 @@ section {
   width: 210px;
   height: 248px;
 }
+.receive-payments:hover,
+.receive-payments :focus {
+  border: 1px solid #5CA1B7;
+}
+
+.vertical-menu__icon:hover,
+.vertical-menu__icon :focus {
+  border: 1px solid #5CA1B7;
+}
 
 .page-footer {
   background: #5ca1b7;
@@ -848,7 +933,7 @@ section {
 }
 @media screen and (min-width: 1440px) {
   .page-footer {
-    width: 100%;
+    border-radius: 30px;
     background: #f7f7f9;
     font-size: 11px;
     color: rgba(0, 0, 0, 0.7);
@@ -857,8 +942,6 @@ section {
 
 .footer-container {
   max-width: 691px;
-  margin-right: auto;
-  margin-left: auto;
   padding: 67px 85px 64px 85px;
 }
 @media screen and (min-width: 1440px) {
@@ -874,18 +957,30 @@ section {
   text-decoration: none;
   color: #fff;
 }
+.footer-tittle:hover,
+.footer-tittle :focus {
+  border-bottom: 1px solid #5CA1B7;
+}
 @media screen and (min-width: 1440px) {
   .footer-tittle {
     display: none;
   }
 }
 
+.footer-text:hover,
+.footer-text :focus {
+  border-bottom: 1px solid #5CA1B7;
+}
 @media screen and (min-width: 1440px) {
   .footer-text {
     text-align: left;
   }
 }
 
+.footer-span:hover,
+.footer-span :focus {
+  border: 1px solid #5CA1B7;
+}
 @media screen and (min-width: 1440px) {
   .footer-span {
     text-align: left;
@@ -910,6 +1005,10 @@ section {
   font-size: 14px;
   text-align: center;
   color: rgba(0, 0, 0, 0.7);
+}
+.footer_nav:hover,
+.footer_nav :focus {
+  border: 1px solid #5CA1B7;
 }
 
 .footer-list_item:not(:last-child) {
