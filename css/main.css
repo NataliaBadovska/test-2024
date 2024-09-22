@@ -267,10 +267,7 @@ body {
 
 @media screen and (min-width: 1440px) {
   main {
-    position: absolute;
-    top: 206px;
-    right: 176px;
-    padding-left: 34px;
+    margin-left: 397px;
   }
 }
 
@@ -299,12 +296,17 @@ section {
   }
 }
 
-.dekstop-nav {
-  position: absolute;
-  top: 39px;
-  right: 98px;
-  width: calc -219%;
+.page-container {
+  margin-left: auto;
+  margin-right: auto;
 }
+@media screen and (min-width: 1440px) {
+  .page-container {
+    margin-left: 397px;
+    margin-top: 39px;
+  }
+}
+
 @media screen and (max-width: 1439px) {
   .dekstop-nav {
     display: none;
@@ -846,7 +848,7 @@ section {
 }
 @media screen and (min-width: 1440px) {
   .page-footer {
-    max-width: 1293px;
+    width: 100%;
     background: #f7f7f9;
     font-size: 11px;
     color: rgba(0, 0, 0, 0.7);
@@ -861,8 +863,6 @@ section {
 }
 @media screen and (min-width: 1440px) {
   .footer-container {
-    position: absolute;
-    left: 44px;
     max-width: 1293px;
     padding: 52px 64px 27px 64px;
   }
