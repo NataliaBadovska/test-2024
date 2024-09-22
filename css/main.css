@@ -257,7 +257,6 @@ summary {
 
 body {
   position: relative;
-  width: 100%;
   height: 100%;
   font-family: "Gilroy", sans-serif;
   color: #414141;
@@ -270,13 +269,19 @@ body {
   main {
     position: absolute;
     top: 206px;
-    right: 0;
+    right: 176px;
     padding-left: 34px;
   }
 }
 
 section {
   margin-bottom: 88px;
+}
+@media screen and (min-width: 1440px) {
+  section {
+    max-width: 898px;
+    margin-bottom: 39px;
+  }
 }
 
 .container {
@@ -468,6 +473,19 @@ section {
   }
 }
 
+.image-box {
+  display: block;
+  width: 173px;
+  height: 205px;
+  margin-bottom: 35px;
+}
+@media screen and (min-width: 1440px) {
+  .image-box {
+    width: 190px;
+    height: 225px;
+  }
+}
+
 .questionnaire-jpg {
   border-radius: 31px;
   width: 173px;
@@ -532,8 +550,6 @@ section {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-}
-.form-data:not(:last-child) {
   margin-bottom: 23px;
 }
 @media screen and (min-width: 1440px) {
@@ -618,6 +634,7 @@ section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-top: 47px;
   }
 }
 
@@ -742,6 +759,7 @@ section {
 }
 @media screen and (min-width: 1440px) {
   .security-form {
+    max-width: 898px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -752,7 +770,7 @@ section {
 
 @media screen and (min-width: 1440px) {
   .password-change-box {
-    margin-right: 258px;
+    margin-right: 200px;
   }
 }
 
@@ -770,11 +788,13 @@ section {
 @media screen and (min-width: 1440px) {
   .privacy-btn {
     margin-top: 74px;
+    width: 270px;
+    height: 54px;
   }
 }
 
 .vertical-menu {
-  position: fixed;
+  position: absolute;
   top: 39px;
   left: 44px;
   background: #69a7ba;
@@ -826,6 +846,7 @@ section {
 }
 @media screen and (min-width: 1440px) {
   .page-footer {
+    max-width: 1293px;
     background: #f7f7f9;
     font-size: 11px;
     color: rgba(0, 0, 0, 0.7);
@@ -833,11 +854,16 @@ section {
 }
 
 .footer-container {
-  padding-top: 67px;
-  padding-bottom: 64px;
+  max-width: 691px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 67px 85px 64px 85px;
 }
 @media screen and (min-width: 1440px) {
   .footer-container {
+    position: absolute;
+    left: 44px;
+    max-width: 1293px;
     padding: 52px 64px 27px 64px;
   }
 }

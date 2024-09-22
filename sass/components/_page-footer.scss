@@ -6,6 +6,7 @@
     color: $accent-color;
 
     @media screen and(min-width: $desktop) {
+        max-width: 1293px;
         background: #f7f7f9;
         font-size: 11px;
         color: rgba(0, 0, 0, 0.7);
@@ -14,12 +15,16 @@
 }
 
 .footer-container{
-    padding-top: 67px ;
-    padding-bottom: 64px;
+    max-width: 691px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 67px 85px 64px 85px;
 
     @media screen and(min-width: $desktop) {
+        position: absolute;
+        left: 44px;
+        max-width: 1293px;
         padding: 52px 64px 27px 64px;
-    
         }
 
 }

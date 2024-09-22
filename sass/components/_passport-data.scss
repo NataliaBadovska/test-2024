@@ -7,6 +7,7 @@
 
     @media screen and(min-width: $desktop) {
             display: flex;
+            padding-top: 47px;
         }
 
 }
@@ -30,12 +31,6 @@
         }
 }
 
-// .passport-data-box{
-//     @media screen and(min-width: $desktop) {
-//             align-content: space-between;
-//         }
-
-// }
 
 .passport-input{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
