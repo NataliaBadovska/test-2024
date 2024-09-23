@@ -92,14 +92,12 @@
 .box-img__menu{
     display: block;
     margin-right: 10px;
-    
+
     &:active {
             font-weight: 500;
             font-size: 20px;
             color: #d5635f;
             border-radius: 60px;
-            width: 317px;
-            height: 58px;
             background: #fff;
         }
 }
