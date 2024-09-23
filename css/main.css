@@ -389,7 +389,6 @@ section {
 .user-editing__item {
   width: 25px;
   height: 25px;
-  background-color: aqua;
   list-style: none;
 }
 .user-editing__item:not(:last-child) {
@@ -497,7 +496,7 @@ section {
 @media screen and (min-width: 1440px) {
   .section-title {
     margin-bottom: 11px;
-    margin-left: 91px;
+    margin-left: 50px;
   }
 }
 .section-title:hover,
@@ -695,6 +694,7 @@ section {
 
 .passportData-form {
   padding-top: 62px;
+  padding-left: 1px;
 }
 @media screen and (min-width: 1440px) {
   .passportData-form {
@@ -772,22 +772,19 @@ section {
 }
 
 .add-documents {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 60px;
-  height: 60px;
+  width: 58px;
+  height: 52px;
   -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 82px;
   padding: 0;
-}
-
-.button-svg {
-  fill: #d5635f;
+  background-image: url("../../images/Component.png");
+  background-position: 50% 50%;
+  border: transparent;
 }
 
 .check {
@@ -892,7 +889,7 @@ section {
   border-radius: 31px;
   width: 319px;
   padding-top: 68px;
-  padding-left: 56px;
+  padding-left: 63px;
   padding-bottom: 860px;
 }
 .vertical-menu:hover,
@@ -915,6 +912,7 @@ section {
 
 .menu-list {
   list-style: none;
+  padding: 0;
 }
 
 .contacts-nav {
@@ -929,7 +927,13 @@ section {
 }
 
 .menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 51px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .menu-item:not(:last-child) {
   margin-bottom: 4px;
@@ -955,6 +959,11 @@ section {
 .vertical-menu__icon:hover,
 .vertical-menu__icon :focus {
   border: 3px solid #5CA1B7;
+}
+
+.box-img__menu {
+  display: block;
+  margin-right: 10px;
 }
 
 .page-footer {
