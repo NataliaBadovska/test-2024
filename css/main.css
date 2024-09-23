@@ -965,6 +965,15 @@ section {
   display: block;
   margin-right: 10px;
 }
+.box-img__menu:active {
+  font-weight: 500;
+  font-size: 20px;
+  color: #d5635f;
+  border-radius: 60px;
+  width: 317px;
+  height: 58px;
+  background: #fff;
+}
 
 .page-footer {
   background: #5ca1b7;
