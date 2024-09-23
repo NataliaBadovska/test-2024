@@ -328,7 +328,7 @@ section {
 }
 .data:hover,
 .data :focus {
-  border-bottom: 1px solid #5CA1B7;
+  border-bottom: 3px solid #5CA1B7;
 }
 
 .owner {
@@ -339,7 +339,7 @@ section {
 }
 .owner:hover,
 .owner :focus {
-  border-bottom: 1px solid #5CA1B7;
+  border-bottom: 3px solid #5CA1B7;
 }
 
 .navigation {
@@ -350,7 +350,7 @@ section {
 }
 .navigation:hover,
 .navigation :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 
 .site-list {
@@ -375,7 +375,7 @@ section {
 }
 .link-nav:hover,
 .link-nav :focus {
-  border-bottom: 1px solid #5CA1B7;
+  border-bottom: 3px solid #5CA1B7;
 }
 
 .user-editing {
@@ -397,7 +397,16 @@ section {
 }
 .user-editing__item:hover,
 .user-editing__item :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
+}
+
+.name-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo-box {
@@ -425,6 +434,10 @@ section {
 }
 .burger-strip:not(:last-child) {
   margin-bottom: 5px;
+}
+.burger-strip:hover,
+.burger-strip :focus {
+  border: 3px solid #5CA1B7;
 }
 
 @media screen and (min-width: 1439px) {
@@ -461,17 +474,17 @@ section {
 }
 .main-nav__svg:hover,
 .main-nav__svg :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 
 .burger-strip:hover,
 .burger-strip :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 
 .logo-box:hover,
 .logo-box :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 
 .section-title {
@@ -489,7 +502,7 @@ section {
 }
 .section-title:hover,
 .section-title :focus {
-  border-bottom: 1px solid #5CA1B7;
+  border-bottom: 3px solid #5CA1B7;
 }
 
 .questionnaire {
@@ -505,41 +518,52 @@ section {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .questionnaire__form-container {
+    padding: 35px 45px 38px 25px;
+  }
+}
+
 .image-box {
   display: block;
   width: 173px;
   height: 205px;
   margin-bottom: 35px;
+  margin-top: 30px;
+  margin-left: 146px;
+  margin-right: 168px;
+  border-radius: 31px;
 }
 @media screen and (min-width: 1440px) {
   .image-box {
     width: 190px;
     height: 225px;
+    margin-right: 29px;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 35px;
   }
 }
 
 .questionnaire-jpg {
   border-radius: 31px;
-  width: 173px;
-  height: 205px;
+  width: 100%;
+  height: 100%;
   margin-top: 30px;
-  margin-left: 146px;
-  margin-right: 168px;
   margin-bottom: 9px;
 }
 .questionnaire-jpg:hover,
 .questionnaire-jpg :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 @media screen and (min-width: 1440px) {
   .questionnaire-jpg {
-    width: 190px;
-    height: 225px;
+    margin: 0;
   }
 }
 
 .questionnaire-box {
-  margin-right: 66px;
+  margin-right: 20px;
 }
 
 .form-container {
@@ -554,7 +578,7 @@ section {
 }
 .form-container:hover,
 .form-container :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 @media screen and (min-width: 1440px) {
   .form-container {
@@ -564,6 +588,7 @@ section {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 898px;
+    margin-left: 0;
   }
 }
 
@@ -603,7 +628,7 @@ section {
 }
 .label:hover,
 .label :focus {
-  border-bottom: 1px solid #5CA1B7;
+  border-bottom: 3px solid #5CA1B7;
 }
 
 .input-data {
@@ -621,7 +646,7 @@ section {
   margin-bottom: 32px;
 }
 .input-data:hover, .input-data:focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 @media screen and (min-width: 1440px) {
   .input-data {
@@ -654,7 +679,7 @@ section {
 }
 .questionnaire-btn:hover,
 .questionnaire-btn :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 @media screen and (min-width: 1440px) {
   .questionnaire-btn {
@@ -715,7 +740,7 @@ section {
 }
 .btn-communication:hover,
 .btn-communication :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 
 .residence-title {
@@ -725,7 +750,7 @@ section {
 }
 .residence-title:hover,
 .residence-title :focus {
-  border-bottom: 1px solid #5CA1B7;
+  border-bottom: 3px solid #5CA1B7;
 }
 
 @media screen and (min-width: 1439px) {
@@ -743,7 +768,7 @@ section {
 }
 .notification:hover,
 .notification :focus {
-  border-bottom: 1px solid #5CA1B7;
+  border-bottom: 3px solid #5CA1B7;
 }
 
 .add-documents {
@@ -789,7 +814,7 @@ section {
 }
 .checkbox:hover,
 .checkbox :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 @media screen and (min-width: 1440px) {
   .checkbox {
@@ -806,7 +831,7 @@ section {
 }
 .check-save:hover,
 .check-save :focus {
-  border-bottom: 1px solid #5CA1B7;
+  border-bottom: 3px solid #5CA1B7;
 }
 @media screen and (min-width: 1440px) {
   .check-save {
@@ -843,7 +868,7 @@ section {
 }
 .password-change:hover,
 .password-change :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 @media screen and (min-width: 1440px) {
   .password-change {
@@ -861,7 +886,7 @@ section {
 
 .vertical-menu {
   position: absolute;
-  top: 39px;
+  top: 9px;
   left: 44px;
   background: #69a7ba;
   border-radius: 31px;
@@ -885,7 +910,7 @@ section {
 }
 .logo-box:hover,
 .logo-box :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 
 .menu-list {
@@ -900,7 +925,7 @@ section {
 }
 .contacts-nav:hover,
 .contacts-nav :focus {
-  border-bottom: 1px solid #5CA1B7;
+  border-bottom: 3px solid #5CA1B7;
 }
 
 .menu-item {
@@ -910,18 +935,26 @@ section {
   margin-bottom: 4px;
 }
 
+.receive-payments__box {
+  border-radius: 31px;
+}
+
 .receive-payments {
   width: 210px;
   height: 248px;
 }
 .receive-payments:hover,
 .receive-payments :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
+}
+
+.receive-payments__img {
+  border-radius: 31px;
 }
 
 .vertical-menu__icon:hover,
 .vertical-menu__icon :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 
 .page-footer {
@@ -933,6 +966,9 @@ section {
 }
 @media screen and (min-width: 1440px) {
   .page-footer {
+    max-width: 1293px;
+    margin-left: 44px;
+    margin-bottom: 48px;
     border-radius: 30px;
     background: #f7f7f9;
     font-size: 11px;
@@ -943,6 +979,8 @@ section {
 .footer-container {
   max-width: 691px;
   padding: 67px 85px 64px 85px;
+  margin-right: auto;
+  margin-left: auto;
 }
 @media screen and (min-width: 1440px) {
   .footer-container {
@@ -959,7 +997,7 @@ section {
 }
 .footer-tittle:hover,
 .footer-tittle :focus {
-  border-bottom: 1px solid #5CA1B7;
+  border-bottom: 3px solid #5CA1B7;
 }
 @media screen and (min-width: 1440px) {
   .footer-tittle {
@@ -969,7 +1007,7 @@ section {
 
 .footer-text:hover,
 .footer-text :focus {
-  border-bottom: 1px solid #5CA1B7;
+  border-bottom: 3px solid #5CA1B7;
 }
 @media screen and (min-width: 1440px) {
   .footer-text {
@@ -979,7 +1017,7 @@ section {
 
 .footer-span:hover,
 .footer-span :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 @media screen and (min-width: 1440px) {
   .footer-span {
@@ -1008,7 +1046,7 @@ section {
 }
 .footer_nav:hover,
 .footer_nav :focus {
-  border: 1px solid #5CA1B7;
+  border: 3px solid #5CA1B7;
 }
 
 .footer-list_item:not(:last-child) {

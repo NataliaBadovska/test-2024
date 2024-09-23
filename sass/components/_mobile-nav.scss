@@ -25,20 +25,20 @@
 
     &:hover,
     :focus{
-        border: 1px solid #5CA1B7;
+        border: $border;
     }
 }
 
 .burger-strip{
     &:hover,
         :focus {
-            border: 1px solid #5CA1B7;
+            border: $border;
         }
 }
 
 .logo-box{
     &:hover,
         :focus {
-            border: 1px solid #5CA1B7;
+            border: $border;
         }
 }

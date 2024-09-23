@@ -1,6 +1,6 @@
 .vertical-menu{
     position: absolute;
-    top: 39px;
+    top: 9px;
     left: 44px;
     background: #69a7ba;
     border-radius: 31px;
@@ -24,7 +24,7 @@
 
     &:hover,
         :focus {
-            border: 1px solid #5CA1B7;
+            border: $border;
         }
 }
 
@@ -40,7 +40,7 @@
 
     &:hover,
         :focus {
-            border-bottom: 1px solid #5CA1B7;
+            border-bottom: $border;
         }
 }
 
@@ -52,19 +52,31 @@
         }
 }
 
+.receive-payments__box{
+    border-radius: 31px;
+}
+
 .receive-payments{
     width: 210px;
     height: 248px;
 
     &:hover,
         :focus {
-            border: 1px solid #5CA1B7;
+            border: $border;
         }
+
+    //  &:active{
+    //         color: #d5635f;;
+    //  }   
+}
+
+.receive-payments__img{
+    border-radius: 31px;
 }
 
 .vertical-menu__icon{
     &:hover,
         :focus {
-            border: 1px solid #5CA1B7;
+            border: $border;
         }
 }

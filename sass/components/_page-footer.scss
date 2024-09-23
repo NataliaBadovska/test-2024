@@ -4,11 +4,13 @@
     font-size: 14px;
     text-align: center;
     color: $accent-color;
+   
 
     @media screen and(min-width: $desktop) {
-        // max-width: 1293px;
+        max-width: 1293px;
         // margin-right: auto;
-        // margin-left: auto;
+        margin-left: 44px;
+        margin-bottom: 48px;
         border-radius: 30px;
         background: #f7f7f9;
         font-size: 11px;
@@ -20,6 +22,8 @@
 .footer-container{
     max-width: 691px;
     padding: 67px 85px 64px 85px;
+    margin-right: auto;
+    margin-left: auto;
 
     @media screen and(min-width: $desktop) {
         max-width: 1293px;
@@ -36,7 +40,7 @@
 
     &:hover,
         :focus {
-            border-bottom: 1px solid #5CA1B7;
+            border-bottom: $border;
         }
 
     @media screen and(min-width: $desktop) {
@@ -47,7 +51,7 @@
 .footer-text{
     &:hover,
         :focus {
-            border-bottom: 1px solid #5CA1B7;
+            border-bottom: $border;
         }
     @media screen and(min-width: $desktop) {
             text-align: left;
@@ -57,7 +61,7 @@
 .footer-span{
     &:hover,
         :focus {
-            border: 1px solid #5CA1B7;
+            border: $border;
         }
     @media screen and(min-width: $desktop) {
             text-align: left;
@@ -83,7 +87,7 @@
 
     &:hover,
         :focus {
-            border: 1px solid #5CA1B7;
+            border: $border;
         }
 
 }

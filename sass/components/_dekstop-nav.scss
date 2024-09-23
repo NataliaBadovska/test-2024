@@ -29,7 +29,7 @@
 
    &:hover,
       :focus {
-         border-bottom: 1px solid #5CA1B7;
+         border-bottom: $border;
       }
 }
 
@@ -41,7 +41,7 @@
 
    &:hover,
       :focus {
-         border-bottom: 1px solid #5CA1B7;
+         border-bottom: $border;
       }
 }
 
@@ -54,7 +54,7 @@
 
    &:hover,
       :focus {
-         border: 1px solid #5CA1B7;
+         border: $border;
       }
 }
 
@@ -81,7 +81,7 @@ color: #838383;
 
 &:hover,
    :focus {
-      border-bottom: 1px solid #5CA1B7;
+      border-bottom: $border;
    }
 }
 
@@ -102,6 +102,11 @@ color: #838383;
 
              &:hover,
              :focus {
-                border: 1px solid #5CA1B7;
+                border: $border;
              }
+}
+
+.name-box{
+   display: flex;
+   align-items: center;
 }

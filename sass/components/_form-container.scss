@@ -11,12 +11,13 @@
 
     &:hover,
     :focus {
-        border: 1px solid #5CA1B7;
+        border: $border;
     }
 
         @media screen and(min-width: $desktop) {
             display: flex;
             flex-wrap: wrap;
             width: 898px;
+            margin-left: 0;
         }
 }

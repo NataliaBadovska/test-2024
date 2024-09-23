@@ -1,7 +1,6 @@
 .form-container{
     @media screen and(min-width: $desktop) {
            display: flex;
-           
         }
 }
 
@@ -28,7 +27,7 @@
 
     &:hover,
         :focus {
-            border-bottom: 1px solid #5CA1B7;
+            border-bottom: $border;
         }
 }
 
@@ -49,7 +48,7 @@
 
     &:hover,
     &:focus{
-            border: 1px solid #5CA1B7;
+            border: $border;
         }
 
      @media screen and(min-width: $desktop) {
@@ -81,7 +80,7 @@
 
     &:hover,
     :focus {
-        border: 1px solid #5CA1B7;
+        border: $border;
     }
 
           @media screen and(min-width: $desktop) {
