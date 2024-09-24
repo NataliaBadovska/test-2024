@@ -308,7 +308,7 @@ section {
   }
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1292px) {
   .dekstop-nav {
     display: none;
   }
@@ -440,7 +440,7 @@ section {
   border: 3px solid #5CA1B7;
 }
 
-@media screen and (min-width: 1439px) {
+@media screen and (min-width: 1292px) {
   .mobile-nav {
     display: none;
   }
@@ -895,7 +895,7 @@ section {
 .vertical-menu :focus {
   border: 1px solid #5CA1B7;
 }
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1292px) {
   .vertical-menu {
     display: none;
   }
