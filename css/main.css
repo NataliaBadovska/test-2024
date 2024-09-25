@@ -265,20 +265,19 @@ body {
   font-size: 18px;
 }
 
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   main {
     margin-left: 397px;
+    margin-right: 98px;
   }
 }
 
 section {
   margin-bottom: 88px;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   section {
-    max-width: 898px;
     margin-bottom: 39px;
-    margin-right: 103px;
   }
 }
 
@@ -291,7 +290,7 @@ section {
     width: 543px;
   }
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .container {
     width: 898px;
     margin-left: 0;
@@ -302,14 +301,14 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .page-container {
     margin-left: 397px;
     margin-top: 39px;
   }
 }
 
-@media screen and (max-width: 1292px) {
+@media screen and (max-width: 1439px) {
   .dekstop-nav {
     display: none;
   }
@@ -441,7 +440,7 @@ section {
   border: 3px solid #5CA1B7;
 }
 
-@media screen and (min-width: 1292px) {
+@media screen and (min-width: 1439px) {
   .mobile-nav {
     display: none;
   }
@@ -456,7 +455,7 @@ section {
           justify-content: space-between;
   margin-bottom: 62px;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .main-nav {
     margin-bottom: 90px;
     -webkit-box-align: center;
@@ -493,7 +492,7 @@ section {
   margin-top: 0px;
   margin-left: 73px;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .section-title {
     margin-bottom: 11px;
     margin-left: 50px;
@@ -508,8 +507,13 @@ section {
   margin-bottom: 63px;
   text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
+@media screen and (min-width: 1440px) {
+  .questionnaire {
+    margin-bottom: 11px;
+  }
+}
 
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .questionnaireData-form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -517,9 +521,11 @@ section {
   }
 }
 
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .questionnaire__form-container {
-    padding: 35px 45px 38px 25px;
+    padding-top: 35px;
+    padding-bottom: 38px;
+    padding-left: 25px;
   }
 }
 
@@ -533,7 +539,7 @@ section {
   margin-right: 168px;
   border-radius: 31px;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .image-box {
     width: 190px;
     height: 225px;
@@ -555,7 +561,7 @@ section {
 .questionnaire-jpg :focus {
   border: 3px solid #5CA1B7;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .questionnaire-jpg {
     margin: 0;
   }
@@ -567,10 +573,8 @@ section {
 
 .form-container {
   margin-left: 73px;
-  margin-right: 75px;
   padding-bottom: 58px;
   padding-left: 42px;
-  padding-right: 75px;
   border-radius: 30px;
   width: 543px;
   background: #f7f7f9;
@@ -579,7 +583,7 @@ section {
 .form-container :focus {
   border: 3px solid #5CA1B7;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .form-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -591,7 +595,7 @@ section {
   }
 }
 
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .form-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -613,7 +617,7 @@ section {
           align-items: flex-start;
   margin-bottom: 23px;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .form-data:not(:last-child) {
     margin-bottom: 44px;
   }
@@ -647,13 +651,13 @@ section {
 .input-data:hover, .input-data:focus {
   border: 3px solid #5CA1B7;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .input-data {
     width: 271px;
   }
 }
 
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .input-dekstop {
     -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
             box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
@@ -680,7 +684,7 @@ section {
 .questionnaire-btn :focus {
   border: 3px solid #5CA1B7;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .questionnaire-btn {
     margin-left: 0;
     margin-right: 0;
@@ -696,7 +700,7 @@ section {
   padding-top: 62px;
   padding-left: 1px;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .passportData-form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -705,7 +709,7 @@ section {
   }
 }
 
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .residence-box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -713,7 +717,7 @@ section {
   }
 }
 
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .residence {
     margin-right: 142px;
   }
@@ -796,7 +800,7 @@ section {
           align-items: center;
   margin-bottom: 70px;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .check:not(:last-child) {
     margin-bottom: 34px;
   }
@@ -813,7 +817,7 @@ section {
 .checkbox :focus {
   border: 3px solid #5CA1B7;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .checkbox {
     width: 23px;
     height: 23px;
@@ -830,7 +834,7 @@ section {
 .check-save :focus {
   border-bottom: 3px solid #5CA1B7;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .check-save {
     font-weight: 500;
     font-size: 16px;
@@ -841,7 +845,7 @@ section {
   padding-top: 61px;
   width: 543px;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .security-form {
     max-width: 898px;
     display: -webkit-box;
@@ -852,7 +856,7 @@ section {
   }
 }
 
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .password-change-box {
     margin-right: 200px;
   }
@@ -867,13 +871,13 @@ section {
 .password-change :focus {
   border: 3px solid #5CA1B7;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .password-change {
     margin-top: 0;
   }
 }
 
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .privacy-btn {
     margin-top: 74px;
     width: 270px;
@@ -896,7 +900,7 @@ section {
 .vertical-menu :focus {
   border: 1px solid #5CA1B7;
 }
-@media screen and (max-width: 1292px) {
+@media screen and (max-width: 1439px) {
   .vertical-menu {
     display: none;
   }
@@ -980,7 +984,7 @@ section {
   text-align: center;
   color: #fff;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .page-footer {
     max-width: 1293px;
     margin-left: 44px;
@@ -998,7 +1002,7 @@ section {
   margin-right: auto;
   margin-left: auto;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .footer-container {
     max-width: 1293px;
     padding: 52px 64px 27px 64px;
@@ -1015,7 +1019,7 @@ section {
 .footer-tittle :focus {
   border-bottom: 3px solid #5CA1B7;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .footer-tittle {
     display: none;
   }
@@ -1025,7 +1029,7 @@ section {
 .footer-text :focus {
   border-bottom: 3px solid #5CA1B7;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .footer-text {
     text-align: left;
   }
@@ -1035,7 +1039,7 @@ section {
 .footer-span :focus {
   border: 3px solid #5CA1B7;
 }
-@media screen and (min-width: 1293px) {
+@media screen and (min-width: 1440px) {
   .footer-span {
     text-align: left;
   }

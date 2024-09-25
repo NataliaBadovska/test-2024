@@ -7,13 +7,11 @@ body{
     line-height: 1.7;
     font-weight: 500;
     font-size: 18px;
-    
 }
 
 main{
     @media screen and (min-width: $desktop) {
-
         margin-left: 397px;
-        
+        margin-right: 98px;
         }
 }

@@ -15,7 +15,10 @@
 
 .questionnaire__form-container{
     @media screen and(min-width: $desktop) {
-            padding: 35px 45px 38px 25px ;
+            // padding: 35px 45px 38px 25px ;
+            padding-top: 35px;
+            padding-bottom: 38px;
+            padding-left: 25px;
         }
 }
 
