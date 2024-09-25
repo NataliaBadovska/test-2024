@@ -757,6 +757,12 @@ section {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .communication-check {
+    margin-left: 120px;
+  }
+}
+
 .residence-title {
   font-weight: 600;
   font-size: 25px;
