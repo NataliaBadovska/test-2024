@@ -941,10 +941,13 @@ section {
 }
 
 .contacts-nav {
+  position: relative;
   text-decoration: none;
   font-weight: 500;
   font-size: 20px;
   color: #fff;
+  -webkit-transition: all 25ms linear;
+  transition: all 25ms linear;
 }
 .contacts-nav:hover,
 .contacts-nav :focus {
@@ -990,13 +993,6 @@ section {
   display: block;
   margin-right: 10px;
 }
-.box-img__menu:active {
-  font-weight: 500;
-  font-size: 20px;
-  color: #d5635f;
-  border-radius: 60px;
-  background: #fff;
-}
 
 .page-footer {
   background: #5ca1b7;
@@ -1018,7 +1014,6 @@ section {
 }
 
 .footer-container {
-  max-width: 691px;
   padding: 67px 85px 64px 85px;
   margin-right: auto;
   margin-left: auto;
