@@ -619,7 +619,7 @@ section {
 }
 @media screen and (min-width: 1440px) {
   .form-data:not(:last-child) {
-    margin-bottom: 44px;
+    margin-bottom: 31px;
   }
 }
 
@@ -709,6 +709,10 @@ section {
   }
 }
 
+.passport-box {
+  margin-top: 68px;
+}
+
 @media screen and (min-width: 1440px) {
   .residence-box {
     display: -webkit-box;
@@ -747,6 +751,10 @@ section {
   border: 3px solid #5CA1B7;
 }
 
+.communication-box {
+  margin-top: 220px;
+}
+
 .residence-title {
   font-weight: 600;
   font-size: 25px;
@@ -755,6 +763,11 @@ section {
 .residence-title:hover,
 .residence-title :focus {
   border-bottom: 3px solid #5CA1B7;
+}
+@media screen and (min-width: 1440px) {
+  .residence-title {
+    margin-top: 0;
+  }
 }
 
 @media screen and (min-width: 1439px) {

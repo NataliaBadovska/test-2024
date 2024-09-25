@@ -13,6 +13,10 @@
 
 }
 
+.passport-box{
+    margin-top: 68px;
+}
+
 .input-dekstop {
     @media screen and(min-width: $desktop) {
 
@@ -56,5 +60,10 @@
         :focus {
             border: $border;
         }
+}
+
+.communication-box{
+    margin-top: 220px;
+   
 }
 
