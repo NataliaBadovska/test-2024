@@ -284,15 +284,17 @@ section {
 .container {
   margin-left: auto;
   margin-right: auto;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 @media screen and (min-width: 543px) {
   .container {
-    width: 543px;
+    max-width: 543px;
   }
 }
 @media screen and (min-width: 1440px) {
   .container {
-    width: 898px;
+    max-width: 898px;
     margin-left: 0;
   }
 }
@@ -300,6 +302,7 @@ section {
 .page-container {
   margin-left: auto;
   margin-right: auto;
+  width: 691px;
 }
 @media screen and (min-width: 1440px) {
   .page-container {
@@ -447,6 +450,8 @@ section {
 }
 
 .main-nav {
+  margin-right: auto;
+  margin-left: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -490,7 +495,7 @@ section {
   font-size: 45px;
   color: #414141;
   margin-top: 0px;
-  margin-left: 73px;
+  margin-left: 63px;
 }
 @media screen and (min-width: 1440px) {
   .section-title {
@@ -572,7 +577,6 @@ section {
 }
 
 .form-container {
-  margin-left: 73px;
   padding-bottom: 58px;
   padding-left: 42px;
   border-radius: 30px;
@@ -1014,6 +1018,7 @@ section {
 }
 
 .footer-container {
+  max-width: 691px;
   padding: 67px 85px 64px 85px;
   margin-right: auto;
   margin-left: auto;

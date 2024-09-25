@@ -1,13 +1,16 @@
 .container {
     margin-left: auto;
     margin-right: auto;
+    padding-left: 14px;
+    padding-right: 14px;
 
     @media screen and (min-width: 543px) {
-        width: 543px
+        max-width: 543px
+        
     }
 
     @media screen and (min-width: $desktop) {
-        width: 898px;
+        max-width: 898px;
         margin-left: 0;       
     }
 
