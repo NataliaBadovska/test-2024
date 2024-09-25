@@ -3,6 +3,14 @@
    margin-right: auto;
    
 
+   @media screen and(max-width: $mobile) {
+      max-width: 691px;
+      }
+      
+   padding-left: 55px;
+   padding-right: 55px;
+   
+
    @media screen and(min-width: $desktop) {
          margin-left: 397px;
          margin-top: 39px;
