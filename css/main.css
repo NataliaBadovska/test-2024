@@ -751,8 +751,10 @@ section {
   border: 3px solid #5CA1B7;
 }
 
-.communication-box {
-  margin-top: 220px;
+@media screen and (min-width: 1440px) {
+  .communication-box {
+    margin-top: 260px;
+  }
 }
 
 .residence-title {

@@ -63,7 +63,10 @@
 }
 
 .communication-box{
-    margin-top: 220px;
+    @media screen and(min-width: $desktop) {
+            margin-top: 260px;
+        }
+    
    
 }
 
